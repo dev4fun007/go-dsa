@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/dev4fun007/go-dsa/matrix"
+)
 
 func main() {
-	fmt.Print("hello main")
+	matrix.TransposeInPlace()
+	fmt.Println()
+	matrix.Rotation()
 }
